@@ -1,9 +1,9 @@
-//
-// server.c
-//
-// Computer Science 50
-// Problem Set 6
-//
+/****************************************************************************
+ *
+ * Web Server in C that serves static and dynamic content
+ * Usage: server [-p port] /path/to/root
+ * 
+ ***************************************************************************/
 
 // feature test macro requirements
 #define _GNU_SOURCE
