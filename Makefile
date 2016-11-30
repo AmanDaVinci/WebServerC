@@ -1,9 +1,5 @@
-#
-# Makefile
-#
-# Computer Science 50
-# Problem Set 6
-#
+ #Web Server in C that serves static and dynamic content
+ #Usage: server [-p port] /path/to/root
 
 server: server.c Makefile
 	clang -ggdb3 -O0 -std=c11 -Wall -Werror -o server server.c -lm
