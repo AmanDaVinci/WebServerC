@@ -1,7 +1,11 @@
 # WebServerC
 Web Server in C that serves static and dynamic content
 
-Usage: server [-p port] /path/to/root
+Usage:
+```
+$ make
+$ ./server [-p port] /path/to/root
+```
 
 As easy to use as Apache Server
 Just input the path to the folder to be hosted (optionally the port number) and it's online
